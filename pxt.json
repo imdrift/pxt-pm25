@@ -1,19 +1,10 @@
 {
-  "name": "PM2.5",
-  "version": "1.0.0",
-  "description": "SEN0460 PM1.0, PM2.5 and PM10 I2C sensor for micro:bit",
-  "dependencies": {
-    "core": "*"
-  },
-  "files": [
-    "pm25.ts",
-    "README.md"
-  ],
-  "testFiles": [
-    "test.ts"
-  ],
-  "public": true,
-  "supportedTargets": [
-    "microbit"
-  ]
+    "name": "PM2.5",
+    "version": "1.1.0",
+    "description": "DFRobot SEN0460 PM1.0, PM2.5 and PM10 micro:bit MakeCode extension; restored legacy block-compatible API",
+    "dependencies": { "core": "*" },
+    "files": ["pm25.ts", "README.md"],
+    "testFiles": ["test.ts"],
+    "public": true,
+    "supportedTargets": ["microbit"]
 }
